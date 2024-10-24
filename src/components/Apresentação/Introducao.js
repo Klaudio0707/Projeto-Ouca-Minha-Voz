@@ -1,17 +1,20 @@
 import React from 'react';
-import logo from '../img/logo-remove.png';
+import Logo from "../Logo";
 import PessoasI from "../img/pessoas.png";
+import { NavLink } from "react-router-dom";
 
-const IntroducaoI = () => {
+const Introducao = () => {
   return (
     <main className='principal-Intro'>
-      <img  className="logo" src={logo} alt="logo ouca minha voz"/>
-
-      <img src={PessoasI} className='PessoasI' alt='Foto de trÊs pessoas' />
-      <p className='paragrafo-Intro'>Já pensou em como seria ter o poder de mudar o mundo,
-         começando pela sua empresa?</p>
+      <Logo />
+      <img src={PessoasI} className='foto-Intro' alt='Foto de três pessoas' />
+      <p className='paragrafo-Intro'>
+        Já pensou em como seria ter o poder de mudar o mundo, começando pela sua empresa?
+      </p>
+      <NavLink to="/Introducao2">Próximo</NavLink>
     </main>
-  )
-}
+  );
+};
 
-export default IntroducaoI
+export default Introducao;
+

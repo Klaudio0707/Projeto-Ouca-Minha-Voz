@@ -17,14 +17,16 @@
     margin-top: 15px;
 }
 
-.PessoasI {
+.foto-Intro {
     height: 300px;
     width: 300px;
     margin-top: 50px;
 }
 
 .paragrafo-Intro {
-    margin-top: 40px;
+    margin-top: 50px;
+    margin: 100px;
     text-align: center;
-
+color: aliceblue;
+font-size:30px;
 }
