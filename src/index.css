@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #68b7d1;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    height: 100px;
+    width: 120px;
+  }
+  
+  .principal-Intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .PessoasI {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+  }
+  
+  .paragrafo-Intro {
+    margin-top: 40px;
+    color: blue; /* Considere melhorar o contraste */
+  }
