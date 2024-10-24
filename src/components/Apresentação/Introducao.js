@@ -8,7 +8,7 @@ const IntroducaoI = () => {
       <img  className="logo" src={logo} alt="logo ouca minha voz"/>
 
       <img src={PessoasI} className='PessoasI' alt='Foto de trÊs pessoas' />
-      <p>Já pensou em como seria ter o poder de mudar o mundo,
+      <p className='paragrafo-Intro'>Já pensou em como seria ter o poder de mudar o mundo,
          começando pela sua empresa?</p>
     </main>
   )
