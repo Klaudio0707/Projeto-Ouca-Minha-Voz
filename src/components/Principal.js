@@ -4,8 +4,8 @@ import Footer from './Footer'
 
 const Home = () => {
   return (
-<div>Home</div>
-   
+    <div>Home</div>
+
   )
 }
 

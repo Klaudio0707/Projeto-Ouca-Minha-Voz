@@ -14,8 +14,8 @@ const Menu = () => {
   return (
     <div>
       <button className="menu-btn" onClick={alternarMenu}>
-  {menuAberto ? <IoClose /> : <IoMenu />} 
-</button>
+        {menuAberto ? <IoClose /> : <IoMenu />}
+      </button>
 
 
       {menuAberto && ( // Renderiza o menu se o estado for 'true'

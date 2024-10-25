@@ -31,3 +31,75 @@
     color: aliceblue;
     font-size: 30px;
 }
+
+
+/*Seção Card */
+.Home{
+flex: 1 1 calc(33.33% - 20px);
+display: flex;
+flex-wrap: wrap; /* permite que os cards "quebrem" para a próxima linha */
+gap: 20px;
+justify-content: center;
+}
+.card {
+    border: 2px solid #710ef1;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    background-color: #f8f6f6;
+  
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    /* Mantém a altura proporcional */
+    object-fit: contain;
+    /* Mantém a imagem proporcional, sem cortar */
+    max-height: 150px;
+    /* Limita a altura máxima do card, mas mantendo a proporção */
+    padding: 10px;
+    /* Adiciona um padding ao redor da imagem */
+}
+.card-icon {
+    font-size: 48px; /* Ajuste o tamanho do ícone */
+    width: 100%;
+    height: auto;
+    /* Mantém a altura proporcional */
+    object-fit: contain;
+    /* Mantém a imagem proporcional, sem cortar */
+    max-height: 150px;
+    /* Limita a altura máxima do card, mas mantendo a proporção */
+    padding: 10px;
+  }
+  
+
+.card-body {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.card-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.card-btn:hover {
+    background-color: #005f73;
+}
