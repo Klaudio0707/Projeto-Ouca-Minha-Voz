@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Introducao from '../src/components/Apresentação/Introducao';
-import Introducao2 from '../src/components/Apresentação/Introducao2'; // Supondo que você tenha este componente
+
+import Introducao from './components/Apresentação/Apresentacao1';
+import Introducao2 from './components/Apresentação/Apresentacao2'; // Supondo que você tenha este componente
 
 
 import Home from './components/Home/Home';

@@ -19,7 +19,7 @@ const Home = () => {
         <CardAnalise />
       </main>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
