@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Introducao from './components/Apresentação/Apresentacao1';
-import Introducao2 from './components/Apresentação/Apresentacao2'; // Supondo que você tenha este componente
-
+import ApresentacaoI from './components/Apresentação/ApresentacaoI';
+import ApresentacaoII from './components/Apresentação/ApresentacaoII'; // Supondo que você tenha este componente
+import IntroduçaoI from './components/Introducao/introducao';
 
 import Home from './components/Home/Home';
 
@@ -11,9 +11,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Introducao />} />
-        <Route path="/Introducao2" element={<Introducao2 />} />
+        <Route path="/" element={<ApresentacaoI />} />
+        <Route path="/Introducao2" element={<ApresentacaoII />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/introducao" element={<IntroduçaoI />}/>
       </Routes>
     </Router>
   );

@@ -8,7 +8,7 @@ const CardServicos = () => {
       <div class="card-body">
         <h3 class="card-title">Projeto Pró Equidade</h3>
         <p class="card-text">Projeto do governo federal com o intuito de promover a equidade de gênero nas empresas</p>
-        <NavLink to="/introducao1">
+        <NavLink to="/introducao">
           <button className="card-btn">Saiba Mais!</button>
           </NavLink>  
             </div>
