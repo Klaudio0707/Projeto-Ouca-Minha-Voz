@@ -1,5 +1,5 @@
 import React from "react";
-import Selo from "../img/selo - 7ª edição.png"
+import Selo from "../../../src/components/img/selo - 7ª edição.png"
 import { NavLink } from "react-router-dom";
 const CardServicos = () => {
   return (

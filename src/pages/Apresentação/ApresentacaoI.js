@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from "../Logo";
-import PessoasI from "../img/pessoas.png";
+import Logo from "../../components/Logo";
+import PessoasI from "../../../src/components/img/pessoas-empresas.jpg";
 import { NavLink } from "react-router-dom";
 
 const Apresentacao = () => {
@@ -11,7 +11,9 @@ const Apresentacao = () => {
       <p className='paragrafo-Intro'>
         Já pensou em como seria ter o poder de mudar o mundo, começando pela sua empresa?
       </p>
-      <NavLink to="/Introducao2">Próximo</NavLink>
+      <div className='navButtons'>
+        <NavLink to="/ApresentacaoII" className='navBtnInicio'>Próximo</NavLink>
+      </div>
     </main>
   );
 };

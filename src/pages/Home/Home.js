@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../Menu';
+import Menu from '../../components/Menu';
 import CardServicos from "./CardServicos";
 import CardContato from './CardContato';
 import CardSocial from './CardSocial';
